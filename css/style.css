@@ -1,0 +1,64 @@
+/* import fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+/* reset styling starts*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* reset styling end */
+
+
+/* set font-size  */
+html{
+   font-size: 62.5%;
+}
+
+/* set font-size end  */
+
+.text_size{
+    font-size: 2rem!important;
+}
+
+/* utility class starts  */
+.white{ 
+    color: white;
+}
+/* utility class ends  */
+
+/* main css starts  */
+.custom-select{
+    font-size: 1.2rem!important;
+
+}
+
+/* content style starts  */
+.header{
+    max-width: 80rem;
+    /* height: 50rem; */
+    margin: 5rem auto;
+    position: relative;
+    box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+}
+
+.header .title{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.3em;
+    font-size: 1.6em;
+    line-height: 48px;
+    padding-bottom: 2rem;
+    color:  #5543ca;
+    background: linear-gradient(to right,  #f4524d 0%,  #5543ca 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* content style ends  */
+
+/* main css end  */
+
+
