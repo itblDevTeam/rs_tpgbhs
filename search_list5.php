@@ -91,7 +91,7 @@
 	<section class="header">
 		<?php
 		include "Connection.php";
-		// error_reporting(0);
+		error_reporting(0);
 		set_time_limit(1000);
 
 		if (isset($_GET['submit'])) {
